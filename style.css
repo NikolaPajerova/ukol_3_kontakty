@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+h1 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 40px;
+}
+
+.ramecek {
+    background-color: rgb(222, 222, 222);
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.kontakt {
+    width: 22%;
+    border-radius: 30px;
+    background-color: white;
+    padding: 2rem;
+}
+
+.jmeno {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.popisek {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.foto {
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.ikony {
+    width: 35px;
+    height: 35px;
+}
+
+.sada {
+    bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-around;
+}
